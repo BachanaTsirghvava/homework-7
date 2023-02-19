@@ -1,0 +1,512 @@
+/* body */
+@font-face {
+    font-family: 'Red Hat Display', sans-serif;
+    src: url(../fonts/RedHatDisplay-Regular.ttf);
+}
+
+.container{
+    max-width: 1440px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+header{
+    border: 1px solid black;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    max-width: 1304px;
+    margin: 0 auto;
+    height: 119px;
+    align-items: center;
+}
+
+.logo a{
+    font-weight: bold;
+    font-size: 22px;
+}
+
+.navigation ul{
+    display: flex;
+    justify-content: space-between;
+    width: 423px;
+}
+
+.search input{
+    width: 336px;
+    height: 41px;
+    border: 1px solid #4B4B4B;
+    border-radius: 4px;
+}
+
+/* main navigation */
+.main-nav{
+    margin:40px 206px 45px 205px;
+}
+
+.main-nav ul{
+    display: flex;
+    justify-content: space-between;
+}
+
+.main-nav li{
+    font-family: 'Red Hat Display', sans-serif;
+    border: 0.5px solid #EAEAEA;
+    border-radius: 10px;
+    height: 34px;
+    padding: 6px 24px;
+}
+
+.main-nav li:hover{
+    background-color: #F1F1F1;
+}
+
+/* colors hub page */
+.pallete-div{
+    max-width: 1234px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 107px 64px; 
+}
+
+.color-kind{
+    display: flex;
+    justify-content: space-between;
+    height: 21px;
+}
+
+.color-kind p{
+    font-family: 'Red Hat Display', sans-serif;
+}
+
+.color{
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    height: 50px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.color-span{
+    opacity: 0;
+}
+
+.color:hover span{
+    opacity: 1;
+}
+
+.HEX,
+.RGB{
+    background-color: #D9D9D9;
+    color: white;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 16px;
+    padding: 3px 18px;
+}
+
+.HEX{
+    border-radius: 0px 10px 0px 4px;
+}
+
+.RGB{
+    border-radius: 10px 0px 4px;
+}
+
+.color1{
+    background-color: #CDF0EA;
+}
+
+.color2{
+    background-color: #F9F9F9;
+}
+
+.color3{
+    background-color: #F6C6EA;
+}
+
+.color4{
+    background-color: #FAF4B7;
+}
+
+.color5{
+    background-color: #D4ECDD;
+}
+
+.color6{
+    background-color: #345B63;
+}
+
+.color7{
+    background-color: #152D35;
+}
+
+.color8{
+    background-color: #112031;
+}
+
+.color9{
+    background-color: #F9F3DF;
+}
+
+.color10{
+    background-color: #CDF2CA;
+}
+
+.color11{
+    background-color: #FFDEFA;
+}
+
+.color12{
+    background-color: #FFC898; 
+}
+
+.color13{
+    background-color: #3330E4;
+}
+
+.color14{
+    background-color: #F637EC;
+}
+
+.color15{
+    background-color: #FBB454;
+}
+
+.color16{
+    background-color: #FAEA48;
+}
+
+.color17{
+    background-color: #D9D7F1;
+}
+
+.color18{
+    background-color: #FFFDDE;
+}
+
+.color19{
+    background-color: #E7FBBE;
+}
+
+.color20{
+    background-color: #FFCBCB;
+}
+
+.color21{
+    background-color: #990000;
+}
+
+.color22{
+    background-color: #FF5B00;
+}
+
+.color23{
+    background-color: #D4D925;
+}
+
+.color24{
+    background-color: #FFEE63;
+}
+
+.color25{
+    background-color: #B91646;
+}
+
+.color26{
+    background-color: #DFD8CA;
+}
+
+.color27{
+    background-color: #FBF3E4;
+}
+
+.color28{
+    background-color: #105652;
+}
+
+.color29{
+    background-color: #CDF0EA;
+}
+
+.color30{
+    background-color: #F9F9F9;
+}
+
+.color31{
+    background-color: #F6C6EA;
+}
+
+.color32{
+    background-color: #FAF4B7;
+}
+
+.color33{
+    background-color: #FFCC1D;
+}
+
+.color34{
+    background-color: #0B4619;
+}
+
+.color35{
+    background-color: #116530;
+}
+
+.color36{
+    background-color: #E8E8CC;
+}
+
+.color37{
+    background-color: #00FFAB;
+}
+
+.color38{
+    background-color: #14C38E;
+}
+
+.color39{
+    background-color: #B8F1B0;
+}
+
+.color40{
+    background-color: #E3FCBF;
+}
+
+.color41{
+    background-color: #49FF00;
+}
+
+.color42{
+    background-color: #FBFF00;
+}
+
+.color43{
+    background-color: #FF9300;
+}
+
+.color44{
+    background-color: #FF0000;
+}
+
+.color45{
+    background-color: #06283D;
+}
+
+.color46{
+    background-color: #1363DF;
+}
+
+.color47{
+    background-color: #47B5FF;
+}
+
+.color48{
+    background-color: #DFF6FF;
+}
+
+.pallete-icons{
+    border: 1px solid #EAEAEA;
+    border-radius: 4px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-content: center;
+    height: 50px;
+    cursor: pointer;
+}
+
+.heart{
+    margin-left: 25.55px;
+}
+
+.icons{
+    margin-right: 13.89px;
+    height: 18.21px;
+    width: 57px;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* collection page */
+.collection-title{
+    background-image: url(../images/Mask\ group.png);
+    height: 283px;
+    margin-bottom: 114px;
+}
+
+.collection-title h1:hover{
+    background-color: rgba(159, 159, 159, 0.5);;
+}
+
+.collection-title h1{
+    height: inherit;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    font-weight: bold;
+    font-size: 40px;
+    color: white;
+}
+
+.catalogue-div{
+    max-width: 1238px;
+    margin: 0 auto;
+    display: grid;
+    gap: 87px 100px;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.catalogue{
+    border: 1px solid #EAEAEA;
+    border-radius: 4px;
+    height: 314px;
+    display: grid;
+    grid-template-areas: 
+    'img img img img img';
+}
+
+.catalogue-img{
+    grid-area: img;
+}
+
+.color-circle{
+    width: 58px;
+    height: 58px;
+    border-radius: 50%;
+    margin-right: 8px;
+}
+
+.circle1{
+    margin-left: 8px;
+}
+
+.ellispse-1{
+    background-color: #D12529;
+}
+
+.ellispse-2{
+    background-color: #394430;
+}
+
+.ellispse-3{
+    background-color: #FC739F;
+}
+
+.ellispse-4{
+    background-color: #FA9F4A;
+}
+
+.ellispse-5{
+    background-color: #A13583;
+}
+
+.ellispse-6{
+    background-color: #FF8601;
+}
+
+.ellispse-7{
+    background-color: #F2EAE7;
+}
+
+.ellispse-8{
+    background-color: #430001;
+}
+
+.ellispse-9{
+    background-color: #15100F;
+}
+
+.ellispse-10{
+    background-color: #E59222;
+}
+
+.ellispse-11{
+    background-color: #7F73B5;
+}
+
+.ellispse-12{
+    background-color: #E2DFE6;
+}
+
+.ellispse-13{
+    background-color: #534090;
+}
+
+.ellispse-14{
+    background-color: #0E44A7;
+}
+
+.ellispse-15{
+    background-color: #050408;
+}
+
+.ellispse-16{
+    background-color: #F6F6F8;
+}
+
+.ellispse-17{
+    background-color: #FDCF05;
+}
+
+.ellispse-18{
+    background-color: #49403E;
+}
+
+.ellispse-19{
+    background-color: #E6D9C9;
+}
+
+.ellispse-20{
+    background-color: #F9E822;
+}
+
+.ellispse-21{
+    background-color: #007CC2;
+}
+
+.ellispse-22{
+    background-color: #01A0D9;
+}
+
+.ellispse-23{
+    background-color: #DE9E00;
+}
+
+.ellispse-24{
+    background-color: #CDDD97;
+}
+
+.ellispse-25{
+    background-color: #DFD046;
+}
+
+.ellispse-26{
+    background-color: #F5BCCF;
+}
+
+.ellispse-27{
+    background-color: #E1D953;
+}
+
+.ellispse-28{
+    background-color: #D09231;
+}
+
+.ellispse-29{
+    background-color: #563E43;
+}
+
+.ellispse-30{
+    background-color: #A9C12A;
+}
